@@ -87,7 +87,7 @@ img, iframe {
 a {
 	font-weight:700;
 	text-decoration:none;
-	color: #5cc265; /* Change Link Color */
+	color: #1288ee; /* Change Link Color */
 }
 a:hover {
 	text-decoration:underline;
@@ -157,7 +157,7 @@ header #logo img {
 	margin-bottom: 1.5em;
 }
 #follow-icons a {
-	color: #ccc;
+	color: #444;
 }	
 #follow-icons span {
 	vertical-align:top;
@@ -190,10 +190,10 @@ h3.post-title {
 	font-size: 0.9em;
 }
 .separator, .taglist, .feature-star {
-	color: #ccc;
+	color: #444;
 }
 .taglist a {
-	background-color:#ccc;
+	background-color:#444;
 	color:#fff;
 	display: inline-block;   
 	line-height: 1.5em;
