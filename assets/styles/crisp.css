@@ -233,6 +233,13 @@ footer a:hover {
 }
 /* Large Screens */
 @media only screen and (min-width: 1281px) {
+    .kg-embed-card div {
+        width: calc(1200px - 85px - 85px);
+        margin-left: calc((700px - 1200px) / 2 + 85px);
+     }
+     .kg-embed-card iframe {
+        height: 600px !important;
+     }
 	html, body {
 		font-size: 1.1em;
 	} 
@@ -274,14 +281,4 @@ footer a:hover {
 	ul, ol {
 		margin-left: 2em; 
 	}
-}
-
-.kg-embed-card {
-    position: relative;
-    overflow: hidden;
-    padding-top: 56.25%;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
 }
