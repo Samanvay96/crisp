@@ -279,6 +279,9 @@ footer a:hover {
 .kg-embed-card {
     position: relative;
     overflow: hidden;
+    padding-top: 56.25%;
+    top: 0;
+    left: 0;
     width: 100%;
-    padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+    height: 100%;
 }
