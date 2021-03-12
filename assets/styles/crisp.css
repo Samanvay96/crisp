@@ -247,6 +247,10 @@ footer a:hover {
 }
 /* Small Screens */
 @media only screen and (max-width: 800px) { 
+    .kg-embed-card div {
+        width: 110%;
+        margin-left: -5%;
+    }
 	body {
 		padding:0;
 	}
