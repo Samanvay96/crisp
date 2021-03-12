@@ -239,6 +239,7 @@ footer a:hover {
      }
      .kg-embed-card iframe {
         height: 600px !important;
+        width: calc(600px / 0.565);
      }
 	html, body {
 		font-size: 1.1em;
